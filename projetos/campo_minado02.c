@@ -19,7 +19,7 @@ void iniciaCampo(){
     for(int i = 0; i < TAM; i++){
         for(int j = 0; j < TAM; j++){
             jogo[i][j].eBomba = 0;
-            jogo[i][j].estaAberta = 1;
+            jogo[i][j].estaAberta = 0;
             jogo[i][j].bombasVizinhas = 0;
         }
     }
